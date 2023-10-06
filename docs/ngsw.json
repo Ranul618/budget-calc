@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1696582145742,
+  "index": "budget-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "budget-app/favicon.ico",
+        "budget-app/index.html",
+        "budget-app/main.6dfddc49f202ff3c.js",
+        "budget-app/manifest.webmanifest",
+        "budget-app/polyfills.e210e0be8cc3d4cc.js",
+        "budget-app/runtime.2917d1e014bb00ca.js",
+        "budget-app/styles.e43c93544ce51be1.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "budget-app/assets/icons/delete_icon.svg",
+        "budget-app/assets/icons/icon-128x128.png",
+        "budget-app/assets/icons/icon-144x144.png",
+        "budget-app/assets/icons/icon-152x152.png",
+        "budget-app/assets/icons/icon-192x192.png",
+        "budget-app/assets/icons/icon-384x384.png",
+        "budget-app/assets/icons/icon-512x512.png",
+        "budget-app/assets/icons/icon-72x72.png",
+        "budget-app/assets/icons/icon-96x96.png",
+        "budget-app/delete_icon.69c56a5326048144.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "budget-app/assets/icons/delete_icon.svg": "b8b35a3110878ea0337482f63b6f0e18544dc76a",
+    "budget-app/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "budget-app/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "budget-app/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "budget-app/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "budget-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "budget-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "budget-app/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "budget-app/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "budget-app/delete_icon.69c56a5326048144.svg": "b8b35a3110878ea0337482f63b6f0e18544dc76a",
+    "budget-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "budget-app/index.html": "4d824d5878cc91edf5fb93ea49b5f766857ecf20",
+    "budget-app/main.6dfddc49f202ff3c.js": "7025443f2ba445becf36cdd3591b161b89efe27c",
+    "budget-app/manifest.webmanifest": "0142c4c395eb8f86b65488960a062fe5ba03e362",
+    "budget-app/polyfills.e210e0be8cc3d4cc.js": "1c78e4f6fd33145422c0dc7187ca06728c425fdd",
+    "budget-app/runtime.2917d1e014bb00ca.js": "d566200a8c8bee7f036f5db96199557f7c1f3c09",
+    "budget-app/styles.e43c93544ce51be1.css": "143e1a8dbd4235e0aaed6f0309b31f335e7a2740"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
